@@ -1,0 +1,72 @@
+<h2 class="text-center">User registration</h2>
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="col-md-6 offset-md-3">
+    <div class="form-group row">
+        <label class="col">
+            Email
+            <input type="email" class="form-control" formControlName="email">
+        </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+        *ngIf="registerForm.get('email')?.hasError('required') && registerForm.controls.email?.touched">
+        Email không được để trống
+    </div>
+    <!-- <div class="alert alert-danger" role="alert"
+        *ngIf="registerForm.controls.email?.errors?.required && registerForm.controls.email?.touched">
+        Email không được để trống
+    </div>
+    <div class="alert alert-danger" role="alert"
+        *ngIf="registerForm.controls.email?.errors?.email && registerForm.controls.email?.touched">
+        Email không hợp lệ
+    </div> -->
+    <div class="form-group row">
+        <label class="col">
+            Phone
+            <input type="text" class="form-control" formControlName="phone">
+        </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+        *ngIf="registerForm.get('phone')?.hasError('required') && registerForm.get('phone')?.touched">
+        Phone không được để trống
+    </div>
+    <div class="alert alert-danger" role="alert"
+        *ngIf="registerForm.get('phone')?.hasError('pattern') && registerForm.get('phone')?.touched">
+        Phone không hợp lệ
+    </div>
+    <div class="form-group row">
+        <label class="col">
+            Ngày sinh
+            <input type="date" my-date-format="dd/MM/yyyy" class="form-control" formControlName="dob">
+        </label>
+    </div>
+    <div class="alert alert-danger" role="alert"
+        *ngIf="registerForm.get('dob')?.hasError('required') && registerForm.get('dob')?.touched">
+        Ngày sinh không được để trống
+    </div>
+    <div class="alert alert-danger" role="alert"
+        *ngIf="registerForm.get('dob')?.hasError('checkOld') && registerForm.get('dob')?.touched">
+        Số tuổi phải lớn hơn 20 và nhỏ hơn 60 tuổi
+    </div>
+
+    <fieldset formGroupName="pwGroup">
+        <div class="form-group row">
+            <label class="col">
+                Password
+                <input type="password" class="form-control" formControlName="password">
+            </label>
+        </div>
+        <div class="form-group row">
+            <label class="col">
+                Confirm Password
+                <input type="password" class="form-control" formControlName="confirmPassword">
+            </label>
+        </div>
+    </fieldset>
+    <div class="alert alert-danger" role="alert" *ngIf="registerForm.get('pwGroup')?.hasError('passwordnotmatch') &&
+          registerForm.get('pwGroup')?.touched">
+        Password does not match!
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-info" type="submit">Submit</button>
+    </div>
+</form>

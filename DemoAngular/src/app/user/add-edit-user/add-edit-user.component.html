@@ -1,0 +1,27 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="col-md-6 offset-md-3">
+    <div class="form-group row">
+        <label class="col">
+            Họ tên
+            <input type="email" class="form-control" formControlName="fullName" placeholder="Nhập Họ tên">
+        </label>
+    </div>
+    <div class="form-group row">
+        <label class="col">
+            Ngày sinh
+            <input type="date" class="form-control" formControlName="dob">
+        </label>
+    </div>
+    <div class="form-group row">
+        <label class="col">
+            Giới tính
+            <select class="form-control" formControlName="gender">
+                <option selected value="">--Chọn--</option>
+                <option value="true">Nam</option>
+                <option value="false">Nữ</option>
+            </select>
+        </label>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-success" type="submit">Submit</button>
+    </div>
+</form>

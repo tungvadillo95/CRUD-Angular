@@ -1,0 +1,14 @@
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\bin\Debug\netcoreapp3.1\Demo.DAL.Implement.deps.json
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\bin\Debug\netcoreapp3.1\Demo.DAL.Implement.dll
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\bin\Debug\netcoreapp3.1\Demo.DAL.Implement.pdb
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\bin\Debug\netcoreapp3.1\Demo.DAL.Interface.dll
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\bin\Debug\netcoreapp3.1\Demo.Domain.dll
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\bin\Debug\netcoreapp3.1\Demo.DAL.Interface.pdb
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\bin\Debug\netcoreapp3.1\Demo.Domain.pdb
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\obj\Debug\netcoreapp3.1\Demo.DAL.Implement.csprojAssemblyReference.cache
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\obj\Debug\netcoreapp3.1\Demo.DAL.Implement.AssemblyInfoInputs.cache
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\obj\Debug\netcoreapp3.1\Demo.DAL.Implement.AssemblyInfo.cs
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\obj\Debug\netcoreapp3.1\Demo.DAL.Implement.csproj.CoreCompileInputs.cache
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\obj\Debug\netcoreapp3.1\Demo.DAL.Implement.csproj.CopyComplete
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\obj\Debug\netcoreapp3.1\Demo.DAL.Implement.dll
+D:\TestAPI\DemoAPI\Demo.DAL.Implement\obj\Debug\netcoreapp3.1\Demo.DAL.Implement.pdb
