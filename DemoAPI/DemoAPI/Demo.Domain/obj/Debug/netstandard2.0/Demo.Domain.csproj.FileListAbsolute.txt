@@ -1,0 +1,9 @@
+D:\TestAPI\DemoAPI\Demo.Domain\bin\Debug\netstandard2.0\Demo.Domain.deps.json
+D:\TestAPI\DemoAPI\Demo.Domain\bin\Debug\netstandard2.0\Demo.Domain.dll
+D:\TestAPI\DemoAPI\Demo.Domain\bin\Debug\netstandard2.0\Demo.Domain.pdb
+D:\TestAPI\DemoAPI\Demo.Domain\obj\Debug\netstandard2.0\Demo.Domain.AssemblyInfoInputs.cache
+D:\TestAPI\DemoAPI\Demo.Domain\obj\Debug\netstandard2.0\Demo.Domain.AssemblyInfo.cs
+D:\TestAPI\DemoAPI\Demo.Domain\obj\Debug\netstandard2.0\Demo.Domain.csproj.CoreCompileInputs.cache
+D:\TestAPI\DemoAPI\Demo.Domain\obj\Debug\netstandard2.0\Demo.Domain.dll
+D:\TestAPI\DemoAPI\Demo.Domain\obj\Debug\netstandard2.0\Demo.Domain.pdb
+D:\TestAPI\DemoAPI\Demo.Domain\obj\Debug\netstandard2.0\Demo.Domain.csprojAssemblyReference.cache
